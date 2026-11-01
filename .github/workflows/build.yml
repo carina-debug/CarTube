@@ -18,4 +18,4 @@ jobs:
       - name: Derle
         run: cd CarTube && gradle assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
-        with: { name: CarTube-1.0.11, path: CarTube/app/build/outputs/apk/debug/*.apk }
+        with: { name: CarTube-1.0.10, path: CarTube/app/build/outputs/apk/debug/*.apk }
